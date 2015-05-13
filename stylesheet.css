@@ -1,0 +1,52 @@
+#headport {
+  background-color:blue;
+  height: 100px;
+  position: top;
+  font-size: 2em;
+}
+
+#headcont {
+  align: justify;
+}
+
+#headport ul li {
+  /*margin: auto 0px; */
+  margin-top: 40px;
+  margin-bottom: 40px:
+}
+
+#headport ul li {
+  float: left;
+  clear: none;
+  display: inline;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 27%;
+  font-size: 1.5rem;
+}
+
+#mainport {
+  background-color:grey;
+  height: 500px;
+}
+
+#portleft {
+  background-color:green;
+  float:left;
+  width: 50%;
+  height: 100%
+}
+#portright {
+  background-color:yellow;
+  float:left;
+  width: 50%;
+  height: 100%
+}
+#footer {
+  background-color:grey;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+
+}
