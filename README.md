@@ -23,6 +23,7 @@ AM	Abdi & Lucas did testing module
 PM	Team meeting, re-design of site.
 	Basic homepage and content page live on site
 	
+	
 ## Design
 
 A static site to demonstrate the team's skills, act as a repository for our learning activities and promote ourselves/Founders & Coders.
@@ -52,3 +53,7 @@ Thursday 14/5/14
 AM	Writing Readme
 	Transforming user stories into tests
 PM	Transforming tests into code
+	PM Meet results
+	- Clean up repo
+	- Write tests (each)
+	- Each person works on page
