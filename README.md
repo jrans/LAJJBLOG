@@ -17,11 +17,31 @@ Lucas - Hosting
 
 ## History
 
-Weds 13/5/14
-AM	Abdi & Lucas did testing module
+Weds 13/5/15
+* AM	Abdi & Lucas did testing module
 	Jack & Jack designed user stories/wireframes
-PM	Team meeting, re-design of site.
+* PM	Team meeting, re-design of site.
 	Basic homepage and content page live on site
+	
+Thurs 14/5/15
+* AM	Spent too long on a KATA...
+* PM	Team strategy for git repository, pushing pulling, cloning, moaning,...
+	LUKAS JACK - HOME PAGE + wc3 Validation
+	ABDI JACK - LEARNING + Tests Working
+	Recompiled and content live on site
+	
+Fri 15/5/15
+* AM	
+** Make a solid menu bar for site, perhaps with media queries if wants to implement horiZontal and landscape
+** Complete all tests on index site and learning site.
+** Create tests for blog, create it, validate it.
+* PM
+** Read me perfect with al tools and fools
+** Animation jquery...
+
+
+
+	
 	
 	
 ## Design
