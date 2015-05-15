@@ -128,24 +128,96 @@ ul#learn-nav-list  {
 /************  about.html page styles      ******************/
 
 
-.profile-container {
+.container {
 
-  outline: 1px solid #000;
+  /*outline: 1px solid #000;*/
   width: 90%;
   margin: 0 auto; 
 }
 
 
+
+
 .profile {
   outline: 1px solid #000;
   float: left; 
-  width: 67px; 
-  height: 40px; 
+  width: 25%; 
+  height: 67px;
+  margin-bottom: 10px; 
 }
 
+/*Jack M's profile photo*/
+.jack-m {
 
+  background: url('jack-m.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*Jack R's profile photo*/
+.jack-r {
 
+  background: url('jack-r.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
+/*Lukas profile photo*/
+.lukas {
+
+  background: url('lukas-temp.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Lukas profile photo*/
+.abdi {
+
+  background: url('abdi-temp.jpeg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content {
+  /*padding: 20px;*/ 
+}
+
+.name {
+
+  float: left;
+  /*outline: 1px solid #000;*/
+  width: 25%; 
+  height: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.clear {
+  clear: both;
+}
+
+/*Media query for profile div*/
+
+@media (min-width: 568px) {
+    .profile {
+        outline: 1px solid #000;
+        float: left; 
+        width: 25%; 
+        height: 225px;
+        margin-bottom: 10px; 
+  }
+
+  .jack-m {
+
+  background: url('jack-m.png');
+  background-size: none; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+}
 
 
 /************  about.html page styles      ******************/
