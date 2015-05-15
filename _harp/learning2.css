@@ -1,0 +1,229 @@
+/* {
+  border: 1px dotted red;
+}
+*/
+
+body {
+
+  margin: 0;
+  font-family: 'Vollkorn', Tahoma, sans-serif;
+  /*font-size: 1.25em;*/
+  padding: 0;
+  background-color: #FDF3E7;
+}
+
+#title h1 {
+  text-align: center;
+  /*margin: 0;*/
+  margin-top: 0;
+  margin-bottom:0;
+  padding: 0;
+}
+
+header {
+
+    background-color: #94ddf7;
+    text-align: center;
+    margin: 0;
+    height: 100px;
+    font-family: 'Allerta', sans-serif;
+
+}
+
+header h1 {
+
+  margin: 0;
+}
+
+.logo-container {
+
+  float: left;
+  margin-left: 0px;
+
+}
+
+.menu-container {
+  float: right;
+  margin-top: 8px;
+  margin-right: 17px;
+}
+
+.menu li {
+  display: inline-block;
+  list-style: none;
+
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+#learn-content {
+  width: 100%;
+  padding-top: 0px;
+}
+
+#learn-nav {
+  width: 100%;
+  padding-left: 0px;
+}
+
+
+
+ul#learn-nav-list  {
+  text-align: center;
+  width: 100%;
+  height: 32px; 
+  padding: 0px;
+  margin:0;
+}
+
+#learn-nav-list li {
+
+  display: inline-block;
+  float: left;
+  background-color: #DFE2DB;
+  width:19%;
+  padding: 0; 
+  font-size: 1em;
+  border: 1px solid black;
+  margin: 0;
+}
+
+#learn-display {
+  background-color: #7FFFD4;
+  width: 96.6%;
+
+}
+
+#learn-display-block {
+  margin-left: 4px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+}
+
+
+/************   Learning.html page styles      ******************/
+
+#container {
+
+  width: 95%;
+  margin: 10px auto;
+}
+
+#learn-nav {
+  margin-bottom: 10px; 
+
+
+
+
+}
+
+/************   Learning.html page styles      ******************/
+
+
+/************  about.html page styles      ******************/
+
+
+.container {
+
+  /*outline: 1px solid #000;*/
+  width: 90%;
+  margin: 0 auto; 
+}
+
+
+
+
+.profile {
+  outline: 1px solid #000;
+  float: left; 
+  width: 25%; 
+  height: 67px;
+  margin-bottom: 10px; 
+}
+
+/*Jack M's profile photo*/
+.jack-m {
+
+  background: url('jack-m.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*Jack R's profile photo*/
+.jack-r {
+
+  background: url('jack-r.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.content {
+  padding: 20px; 
+}
+
+.name {
+
+  float: left;
+  /*outline: 1px solid #000;*/
+  width: 25%; 
+  height: 20px;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+/************  about.html page styles      ******************/
+
+#headport {
+  background-color:blue;
+  height: 100px;
+  position: top;
+}
+
+#ul {
+  list-style: none;
+}
+
+#menu {
+  float: left;
+}
+#logo {
+  float: left;
+}
+#about {
+  float: right;
+}
+#mainport {
+  background-color:#fff;
+  height: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#portleft {
+  background-color:green;
+  float:left;
+  width: 50%;
+  height: 100%
+}
+#portright {
+  background-color:yellow;
+  float:left;
+  width: 50%;
+  height: 100%
+}
+#footer {
+  background-color:grey;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+
+}
