@@ -1,144 +1,44 @@
 
 
-* {
+/** {
   outline: 1px dashed white;
-}
+}*/
 
 body {
 
   margin: 0;
-  font-family: 'Vollkorn', Tahoma, sans-serif; 
+  font-family: 'Vollkorn', Tahoma, sans-serif;
   font-size: 1em;
 }
 
-header {
 
-    background-color: #94ddf7; 
-    text-align: center;
-    margin: 0;
-    height: 100px; 
-    font-family: 'Allerta', sans-serif;
-
-}
-
-header h1 {
-
-  margin: 0;
-}
-
-#indexlogo {
+#topicons {
   width: 100%;
   text-align: center;
   position: fixed;
+  top:20px
 }
 
-#indexlogo a{
-}
-a.element
-#indexlogo a img{
-  width: 30%;
-  max-width: 150px;
-}
-.faclink{
-  text-align: left;
-}
-.teamlink{
-  text-align: right;
-}
-.logo{
-  text-align: center;
+#Logohome {
+  top:2em;
+  height: auto;
+  width: 20%;
 }
 
-.logo-container {
-
-  float: left;
-  margin-left: 0px;  
-
+.corners {
+  top:2em;
+  height: auto;
+  width: 10%;
 }
 
-.menu-container {
-  float: right;
-  margin-top: 8px;
-  margin-right: 17px; 
-}
+#topicons a {
+  padding-left: 8%;
+  padding-right:8%;
 
-.menu li {
-  display: inline-block;
-  list-style: none; 
-
-}
-
-ul {
-  padding: 0px;
-  margin: 0px;
 }
 
 
 
-#learn-content {
-  width: 100%;
-  padding-top: 0px;
-}
-
-#learn-nav {
-  width: 100%;
-  padding-left: 0px;
-}
-
-#learn-nav-list {
-  width: 100%;
-  margin: 0px;
-  padding-top: 3px;
-  padding-left: 3px;
-  background-color: #ffb253;
-}
-
-#learn-nav-list ul {
-  width: 100%;
-  padding: 0px;
-}
-
-#learn-nav-list li {
-  display: inline;
-  background-color: grey;
-  padding-left: 2px;
-  padding-right: 2px;
-}
-
-#learn-display {
-  background-color: grey;
-
-}
-
-#learn-display-block {
-  margin-left: 4px;
-  margin-right: 4px;
-  margin-bottom: 8px;
-}
-
-#headport {
-  background-color:blue;
-  height: 100px;
-  position: top;
-}
-#headcont {
-  algin: justify;
-
-}
-
-#ul {
-  list-style: none;
-}
-
-#menu {
-  float: left;
-}
-#logo {
-  float: left;
-}
-#about {
-  float: right;
-}
 #mainport {
   background-color:grey;
   height: 100vh;
@@ -173,7 +73,7 @@ margin: 0px;
   background-size: cover;
 }
 #footer {
-  background-color:grey;
+  background-color:white;
   height: 10vh;
   width: 90%;
   position: fixed;
@@ -181,5 +81,13 @@ margin: 0px;
   text-align:center;
   left:5%;
   min-height: 30px;
+  font-size:2em;
 
+}
+
+#footer p {
+  margin: 0;
+  padding: 2vh;
+  font-size: 0.6em;
+  color: black;
 }
