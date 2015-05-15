@@ -153,7 +153,6 @@ ul#learn-nav-list  {
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center;
-<<<<<<< HEAD
 }
 /*Jack R's profile photo*/
 .jack-r {
@@ -164,78 +163,13 @@ ul#learn-nav-list  {
   background-position: center;
 }
 
-/*Lukas profile photo*/
-.lukas {
-
-  background: url('lukas-temp.jpg');
-  background-size: cover; 
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-/*Lukas profile photo*/
-.abdi {
-
-  background: url('abdi-temp.jpeg');
-  background-size: cover; 
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-/*Jack R's profile photo*/
-.jack-r {
-
-
-.content {
-  /*padding: 20px;*/ 
-
-  background: url('jack-r.jpg');
-  background-size: cover; 
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
-.name {
-
-
-  float: left;
-  /*outline: 1px solid #000;*/
-  width: 25%; 
-  height: 20px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.clear {
-  clear: both;
-}
-
-/*Media query for profile div*/
-
-@media (min-width: 568px) {
-    .profile {
-        outline: 1px solid #000;
-        float: left; 
-        width: 25%; 
-        height: 225px;
-        margin-bottom: 10px; 
-  }
-
-  .jack-m {
-
-  background: url('jack-m.png');
-  background-size: none; 
-  background-repeat: no-repeat;
-  background-position: center;
-}
-}
 
 .content {
   padding: 20px; 
 }
 
 .name {
+
   float: left;
   /*outline: 1px solid #000;*/
   width: 25%; 
