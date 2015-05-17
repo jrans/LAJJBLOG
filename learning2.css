@@ -182,8 +182,6 @@ ul#learn-nav-list  {
   background-position: center;
 
 }
-/*Jack R's profile photo*/
-.jack-r {
 
 
 .content {
@@ -247,6 +245,11 @@ ul#learn-nav-list  {
 
 .clear {
   clear: both;
+}
+
+.edit {
+
+  color: yellow;
 }
 
 /************  about.html page styles      ******************/
